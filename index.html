@@ -1,97 +1,36 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">MyLogo</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
-}
+  <section class="hero">
+    <h1>Welcome to Our Site</h1>
+    <p>Your success begins here. Let’s build something amazing together.</p>
+    <a href="#" class="cta-button">Get Started</a>
+  </section>
 
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background: #333;
-  color: #fff;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(to right, #667eea, #764ba2);
-  color: white;
-}
-
-.hero h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.cta-button {
-  background: #fff;
-  color: #333;
-  padding: 12px 25px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-/* Footer */
-footer {
-  background: #222;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-footer .social a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-/* Responsive: For small screens */
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 28px;
-  }
-
-  .hero p {
-    font-size: 16px;
-  }
-}
+  <footer>
+    <p>© 2025 MyWebsite. All rights reserved.</p>
+    <div class="social">
+      <a href="#">🔗 LinkedIn</a>
+      <a href="#">🐦 Twitter</a>
+      <a href="#">📘 Facebook</a>
+    </div>
+  </footer>
+</body>
+  </html>
