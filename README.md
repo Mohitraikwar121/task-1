@@ -69,8 +69,6 @@ You can easily customize:
 
 This project is available for educational and personal use. You are free to modify and enhance it for your own projects.
 
----
 
 💡 Project Motto
-
 «Simple design. Responsive experience. Strong foundation.»
