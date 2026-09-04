@@ -17,7 +17,7 @@ A modern, responsive, and lightweight **To-Do List web application** for creatin
 
 </div>
 
----
+
 
 ## 📌 Overview
 
@@ -103,7 +103,7 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 
 ### Architecture
 
-```text
+
 User Interface
       │
       ▼
@@ -123,13 +123,13 @@ LocalStorage API
       │
       ▼
 Browser Storage
-```
 
----
+
+
 
 ## 🔄 Application Workflow
 
-```text
+
                     ┌───────────────────┐
                     │    Create Task    │
                     └─────────┬─────────┘
@@ -159,9 +159,9 @@ Browser Storage
              ┌─────────────────┐
              │ Completed Task  │
              └─────────────────┘
-```
 
----
+
+
 
 ## 💾 Data Persistence
 
@@ -169,7 +169,7 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 
 ### Persistence Flow
 
-```text
+
 ┌─────────────────┐
 │   User Action   │
 └────────┬────────┘
@@ -188,7 +188,7 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 ┌─────────────────┐
 │ Browser Storage │
 └─────────────────┘
-```
+
 
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
 
