@@ -203,11 +203,11 @@ When a task is created, updated, completed, or deleted, the stored task data is 
 | Multi-device synchronization | ❌ No |
 | Data scope | Browser/device-specific |
 
----
+
 
 ## 🗂️ Project Structure
 
-```text
+
 To-Do-List/
 │
 ├── index.html
@@ -221,7 +221,7 @@ To-Do-List/
 │   └── completed-tasks.png
 │
 └── README.md
-```
+
 
 ### File Responsibilities
 
@@ -259,7 +259,7 @@ open index.html   # or double-click the file in your file explorer
 
 For a smoother development experience, open the project in **Visual Studio Code** with the **Live Server** extension so changes reload automatically in the browser.
 
----
+
 
 ## 📖 Usage
 
@@ -318,7 +318,65 @@ ALL → ACTIVE → COMPLETED
 
 </div>
 
----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🌐 Browser Support
 
