@@ -73,10 +73,7 @@ The interface adapts cleanly across:
 
 Layout, typography, spacing, and controls all scale to the available screen space without sacrificing readability or accessibility.
 
----
-
 ## 🛠️ Technical Highlights
-
 - Modular frontend structure
 - Client-side application state handling
 - Dynamic DOM rendering
@@ -90,7 +87,6 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 - Lightweight — no frameworks, no build tools
 - No backend or database required
 
----
 
 ## 💻 Technology Stack
 
@@ -102,7 +98,6 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 | **LocalStorage API** | Persistent client-side task storage |
 
 ### Architecture
-
 
 User Interface
       │
@@ -125,10 +120,7 @@ LocalStorage API
 Browser Storage
 
 
-
-
 ## 🔄 Application Workflow
-
 
                     ┌───────────────────┐
                     │    Create Task    │
@@ -161,8 +153,6 @@ Browser Storage
              └─────────────────┘
 
 
-
-
 ## 💾 Data Persistence
 
 The application uses the browser's **LocalStorage API** to persist task data across sessions.
@@ -189,7 +179,6 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 │ Browser Storage │
 └─────────────────┘
 
-
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
 
 ### Storage Characteristics
@@ -202,7 +191,6 @@ When a task is created, updated, completed, or deleted, the stored task data is 
 | Cloud synchronization | ❌ No |
 | Multi-device synchronization | ❌ No |
 | Data scope | Browser/device-specific |
-
 
 
 ## 🗂️ Project Structure
@@ -222,7 +210,6 @@ To-Do-List/
 │
 └── README.md
 
-
 ### File Responsibilities
 
 | File / Directory | Purpose |
@@ -233,10 +220,8 @@ To-Do-List/
 | `screenshots/` | Project screenshots used for documentation |
 | `README.md` | Project documentation |
 
----
 
 ## 🚀 Getting Started
-
 ### Prerequisites
 
 You only need:
@@ -248,21 +233,12 @@ You only need:
 No backend server, database, or additional runtime environment is required.
 
 ### Quick Start
-
-```bash
-git clone <repository-url>
-cd To-Do-List
-open index.html   # or double-click the file in your file explorer
-```
-
 ### Recommended Development Setup
 
 For a smoother development experience, open the project in **Visual Studio Code** with the **Live Server** extension so changes reload automatically in the browser.
 
 
-
 ## 📖 Usage
-
 ### ➕ Create a Task
 
 1. Enter the task title.
@@ -280,11 +256,6 @@ For a smoother development experience, open the project in **Visual Studio Code*
 ### ✅ Complete a Task
 
 Use the task checkbox/control to toggle its status:
-
-```text
-Active → Completed
-Completed → Active
-```
 
 ### 🗑️ Delete a Task
 
