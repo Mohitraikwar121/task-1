@@ -275,68 +275,7 @@ Use the filter controls to quickly switch between task view.
 
 ### Completed Tasks
 <img src="screenshots/completed-tasks.png" alt="Completed Tasks" width="700" />
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 🌐 Browser Support
 
