@@ -1,7 +1,6 @@
 <div align="center">
 
 # 📝 To-Do List Application
-
 **One task at a time. One step closer to your goals.**
 
 A modern, responsive, and lightweight **To-Do List web application** for creating, managing, organizing, and tracking everyday tasks — right in your browser, with zero setup.
@@ -104,7 +103,6 @@ LocalStorage API
 Browser Storage
 
 ## 🔄 Application Workflow
-
                     ┌───────────────────┐
                     │    Create Task    │
                     └─────────┬─────────┘
@@ -135,12 +133,10 @@ Browser Storage
              │ Completed Task  │
              └─────────────────┘
 
-
 ## 💾 Data Persistence
 The application uses the browser's **LocalStorage API** to persist task data across sessions.
 
 ### Persistence Flow
-
 ┌─────────────────┐
 │   User Action   │
 └────────┬────────┘
@@ -254,12 +250,12 @@ Use the filter controls to quickly switch between task view.
 | Safari | ✅ |
 | Opera | ✅ |
 | Internet Explorer | ❌ Not supported |
-
 > Requires a browser with LocalStorage support (all modern browsers).
 
 ## 🎨 Design & User Experience
 ### Simplicity
 The interface minimizes unnecessary elements and keeps the primary task workflow easy to understand.
+
 
 ### Responsiveness
 The layout adapts to different viewport sizes to provide a consistent experience across desktop and mobile devices.
