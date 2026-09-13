@@ -256,7 +256,6 @@ Use the filter controls to quickly switch between task view.
 ### Simplicity
 The interface minimizes unnecessary elements and keeps the primary task workflow easy to understand.
 
-
 ### Responsiveness
 The layout adapts to different viewport sizes to provide a consistent experience across desktop and mobile devices.
 
@@ -385,7 +384,7 @@ You are free to modify, extend, and adapt the project for learning and developme
 ## ⭐ Support
 If this project helped you learn something new, consider giving it a ⭐ **Star** on GitHub — it helps others discover it too.
 <div align="center">
-
+      
 ### 📝 Built to keep tasks simple, organized, and actionable.
 
 **One task at a time. One step closer to your goals.**
