@@ -140,18 +140,18 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 ┌─────────────────┐
 │   User Action   │
 └────────┬────────┘
-         │
-         ▼
+           │
+           ▼
 ┌───────────────────┐
 │ Application State  │
 └────────┬───────────┘
-         │
-         ▼
+           │
+           ▼
 ┌─────────────────┐
 │   LocalStorage   │
 └────────┬────────┘
-         │
-         ▼
+           │
+           ▼
 ┌─────────────────┐
 │ Browser Storage │
 └─────────────────┘
