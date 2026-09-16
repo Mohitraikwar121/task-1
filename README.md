@@ -1,5 +1,4 @@
 <div align="center">
-
 # 📝 To-Do List Application
 **One task at a time. One step closer to your goals.**
 
@@ -101,6 +100,7 @@ LocalStorage API
       │
       ▼
 Browser Storage
+
 
 ## 🔄 Application Workflow
                     ┌───────────────────┐
