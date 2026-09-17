@@ -1,174 +1,259 @@
-<div align="center">
-# 📝 To-Do List Application
-**One task at a time. One step closer to your goals.**
+<div align="center">📝 To-Do List Application
 
-A modern, responsive, and lightweight **To-Do List web application** for creating, managing, organizing, and tracking everyday tasks — right in your browser, with zero setup.
+One task at a time. One step closer to your goals.
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#-technology-stack)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](#-technology-stack)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)](#-technology-stack)
-[![No Backend](https://img.shields.io/badge/Backend-None-lightgrey)](#-overview)
-[![License](https://img.shields.io/badge/License-Educational-green)](#-license)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)](#-contributing)
+A modern, responsive, and lightweight task management web application built with HTML5, CSS3, and vanilla JavaScript. Create, organize, update, complete, filter, and delete tasks directly from your browser — with persistent storage and zero backend setup.
 
-[Features](#-features) • [Demo](#-screenshots) • [Getting Started](#-getting-started) • [Usage](#-usage) • [Roadmap](#%EF%B8%8F-future-improvements) • [Contributing](#-contributing)
-</div>
-## 📌 Overview
-The To-Do List Application provides a centralized, distraction-free workspace for managing daily tasks and monitoring their completion status.
+<br>""HTML5" (https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)" (#-technology-stack)
+""CSS3" (https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)" (#-technology-stack)
+""JavaScript" (https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)" (#-technology-stack)
+""LocalStorage" (https://img.shields.io/badge/Storage-LocalStorage-orange?style=for-the-badge)" (#-data-persistence)
+""Backend" (https://img.shields.io/badge/Backend-None-lightgrey?style=for-the-badge)" (#-architecture)
+""Status" (https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)" (#-project-information)
 
-The project is built around three core principles:
+<br>"Features" (#-features) • "Getting Started" (#-getting-started) • "Usage" (#-usage) • "Architecture" (#-architecture) • "Screenshots" (#-screenshots) • "Roadmap" (#-future-improvements)
 
-| Principle | What it means |
-|---|---|
-| 🎯 **Simplicity** | Keep task management quick and clutter-free |
-| ⚡ **Efficiency** | Make common actions accessible with minimal interaction |
-| 📱 **Responsiveness** | Deliver a consistent experience across desktop, tablet, and mobile |
+</div>---
 
-It's implemented entirely as a **client-side web application** — no backend server, no database, no build step required.
+📌 Overview
 
-## ✨ Features
-### 📋 Task Management
+The To-Do List Application is a client-side task management system designed to make everyday task tracking simple, fast, and distraction-free.
 
-| Feature | Description |
-| --- | --- |
-| ➕ Create Task | Add a new task with a title and optional description |
-| ✏️ Edit Task | Modify the details of an existing task |
-| ✅ Complete Task | Mark tasks as completed or return them to active status |
-| 🗑️ Delete Task | Permanently remove a task |
-| 📋 Task Overview | View and manage all tasks from a centralized interface |
+The application allows users to:
 
-### 🔎 Task Filtering
-Tasks can be filtered based on their current status:
-- **All** — Display every task
-- **Active** — Display pending tasks only
-- **Completed** — Display finished tasks only
+- Create new tasks
+- Add optional task descriptions
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks by status
+- Persist tasks across browser sessions
+- Use the application across desktop, tablet, and mobile devices
 
-### 💾 Persistent Data
-Task data is stored in the browser using the **LocalStorage API**, so tasks remain available after:
+The entire application runs inside the browser, making it lightweight and easy to deploy.
 
-- ✅ Page refreshes
-- ✅ Closing and reopening the browser
-- ✅ Returning to the app later
+Core Principles
 
-> **Note:** Since data is stored locally, tasks are device/browser-specific and are **not** synchronized across devices.
+Principle| Description
+🎯 Simplicity| Keep task management straightforward and clutter-free
+⚡ Efficiency| Perform common actions with minimal interaction
+📱 Responsiveness| Maintain usability across different screen sizes
+💾 Persistence| Preserve tasks using browser-based LocalStorage
+🧩 Maintainability| Keep the frontend structure simple and easy to understand
 
-### 📱 Responsive Design
-The interface adapts cleanly across:
-🖥️ Desktop · 💻 Laptop · 📱 Tablet · 📲 Mobile
+---
 
-Layout, typography, spacing, and controls all scale to the available screen space without sacrificing readability or accessibility.
+✨ Features
 
-## 🛠️ Technical Highlights
-- Modular frontend structure
-- Client-side application state handling
-- Dynamic DOM rendering
+📋 Task Management
+
+Feature| Description
+➕ Create Task| Add a task with a title and optional description
+✏️ Edit Task| Modify an existing task's information
+✅ Complete Task| Toggle tasks between active and completed states
+🗑️ Delete Task| Permanently remove unwanted tasks
+📋 Task Overview| View all tasks from a centralized interface
+
+🔎 Task Filtering
+
+Quickly switch between different task states:
+
+- All — Display every task
+- Active — Display pending tasks
+- Completed — Display finished tasks
+
+💾 Persistent Storage
+
+Tasks are stored using the browser's LocalStorage API.
+
+Your data remains available after:
+
+- 🔄 Refreshing the page
+- 🌐 Closing and reopening the browser
+- 🔁 Returning to the application later
+
+«Important: LocalStorage is browser/device-specific. Tasks are not automatically synchronized between different devices or browsers.»
+
+📱 Responsive Interface
+
+The UI adapts to:
+
+Desktop · Laptop · Tablet · Mobile
+
+Responsive layouts, spacing, typography, and controls are designed to remain usable across different viewport sizes.
+
+⚡ Lightweight
+
+The application has:
+
+- ❌ No backend
+- ❌ No database
+- ❌ No framework
+- ❌ No build system
+- ❌ No external runtime dependency
+- ✅ Pure HTML, CSS, and JavaScript
+
+---
+
+🛠️ Technical Highlights
+
+The project demonstrates practical frontend development concepts:
+
+- Modular frontend organization
 - CRUD-style task operations
-- LocalStorage-based persistence
-- Real-time interface updates
-- Status-based task filtering
-- Event-driven interactions
-- Form validation and input handling
-- Responsive CSS layout (mobile-first)
-- Lightweight — no frameworks, no build tools
-- No backend or database required
+- Client-side state management
+- Dynamic DOM manipulation
+- Event-driven programming
+- LocalStorage integration
+- JSON serialization and deserialization
+- Conditional rendering
+- Status-based filtering
+- Form validation
+- Responsive CSS
+- Real-time UI updates
+- Browser-based persistence
+- Mobile-friendly interface
 
-## 💻 Technology Stack
-| Technology | Purpose |
-| --- | --- |
-| **HTML5** | Semantic application structure and markup |
-| **CSS3** | Styling, responsive layout, spacing, and visual presentation |
-| **JavaScript (ES6+)** | Application logic, state handling, and user interactions |
-| **LocalStorage API** | Persistent client-side task storage |
+---
 
-### Architecture
-User Interface
-      │
-      ▼
-HTML + CSS
-      │
-      ▼
-JavaScript Application Logic
-      │
-      ├── Task Creation
-      ├── Task Editing
-      ├── Task Completion
-      ├── Task Deletion
-      └── Task Filtering
-      │
-      ▼
-LocalStorage API
-      │
-      ▼
+🧰 Technology Stack
+
+Technology| Purpose
+HTML5| Semantic structure and application markup
+CSS3| Styling, layout, responsiveness, and visual presentation
+JavaScript ES6+| Application logic, state handling, DOM manipulation, and events
+LocalStorage API| Persistent client-side task storage
+
+Why Vanilla JavaScript?
+
+This project intentionally uses vanilla JavaScript instead of a frontend framework to demonstrate a strong understanding of:
+
+- DOM manipulation
+- Event handling
+- JavaScript state management
+- Browser APIs
+- CRUD operations
+- Data persistence
+
+---
+
+🏗️ Architecture
+
+The application follows a simple client-side architecture:
+
+┌──────────────────────┐
+│      User Interface  │
+│      HTML + CSS      │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ JavaScript Application│
+│       Logic          │
+└──────────┬───────────┘
+           │
+     ┌─────┼──────────────┐
+     │     │              │
+     ▼     ▼              ▼
+  Create  Update        Delete
+  Task    Task          Task
+     │     │              │
+     └─────┼──────────────┘
+           │
+           ▼
+┌──────────────────────┐
+│    Task Filtering    │
+│   Active / Completed │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│   LocalStorage API   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│    Browser Storage   │
+└──────────────────────┘
+
+---
+
+🔄 Application Workflow
+
+                 ┌───────────────┐
+                 │   Open App    │
+                 └───────┬───────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │ Load LocalStorage│
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │ Render Task List │
+                └────────┬────────┘
+                         │
+             ┌───────────┼───────────┐
+             ▼           ▼           ▼
+        Create Task   Edit Task   Delete Task
+             │           │           │
+             └───────────┼───────────┘
+                         ▼
+                ┌─────────────────┐
+                │ Update App State │
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │ Save to Storage │
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │ Update UI        │
+                └─────────────────┘
+
+---
+
+💾 Data Persistence
+
+The application uses LocalStorage to store task information directly inside the user's browser.
+
+Persistence Flow
+
+User Action
+     │
+     ▼
+Application State
+     │
+     ▼
+Serialize Task Data
+     │
+     ▼
+LocalStorage
+     │
+     ▼
 Browser Storage
 
+When the application starts, previously stored tasks are retrieved and rendered automatically.
 
-## 🔄 Application Workflow
-                    ┌───────────────────┐
-                    │    Create Task    │
-                    └─────────┬─────────┘
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │    Active Task    │
-                    └─────────┬─────────┘
-                              │
-                    ┌─────────┴─────────┐
-                    ▼                   ▼
-             ┌─────────────┐     ┌─────────────┐
-             │  Edit Task  │     │ Delete Task │
-             └──────┬──────┘     └─────────────┘
-                    │
-                    ▼
-             ┌─────────────────┐
-             │  Save Changes   │
-             └────────┬────────┘
-                      │
-                      ▼
-             ┌─────────────────┐
-             │ Mark Completed  │
-             └────────┬────────┘
-                      │
-                      ▼
-             ┌─────────────────┐
-             │ Completed Task  │
-             └─────────────────┘
+Storage Characteristics
 
-## 💾 Data Persistence
-The application uses the browser's **LocalStorage API** to persist task data across sessions.
+Property| Value
+Storage Technology| LocalStorage API
+Persistence| ✅ Yes
+Backend Required| ❌ No
+Database Required| ❌ No
+Cloud Sync| ❌ No
+Multi-device Sync| ❌ No
+Internet Required| ❌ No
+Storage Scope| Browser / Device
 
-### Persistence Flow
-┌─────────────────┐
-│   User Action   │
-└────────┬────────┘
-           │
-           ▼
-┌───────────────────┐
-│ Application State  │
-└────────┬───────────┘
-           │
-           ▼
-┌─────────────────┐
-│   LocalStorage   │
-└────────┬────────┘
-           │
-           ▼
-┌─────────────────┐
-│ Browser Storage │
-└─────────────────┘
+---
 
-When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
+🗂️ Project Structure
 
-### Storage Characteristics
-| Property | Value |
-| --- | --- |
-| Storage type | Browser LocalStorage |
-| Persistence | ✅ Yes |
-| Backend required | ❌ No |
-| Cloud synchronization | ❌ No |
-| Multi-device synchronization | ❌ No |
-| Data scope | Browser/device-specific |
-
-## 🗂️ Project Structure
 To-Do-List/
 │
 ├── index.html
@@ -183,145 +268,271 @@ To-Do-List/
 │
 └── README.md
 
-### File Responsibilities
-| File / Directory | Purpose |
-| --- | --- |
-| `index.html` | Application structure and UI elements |
-| `style.css` | Styling and responsive layout |
-| `script.js` | Task logic, event handling, filtering, and LocalStorage operations |
-| `screenshots/` | Project screenshots used for documentation |
-| `README.md` | Project documentation |
+File Responsibilities
 
-## 🚀 Getting Started
-### Prerequisites
+File / Directory| Responsibility
+"index.html"| Defines the application's structure and UI
+"style.css"| Handles styling, layout, responsiveness, and visual design
+"script.js"| Contains task logic, DOM manipulation, filtering, and LocalStorage operations
+"screenshots/"| Contains screenshots used for project documentation
+"README.md"| Project documentation
+
+---
+
+🚀 Getting Started
+
+Prerequisites
+
 You only need:
+
 - A modern web browser
-- A code editor such as Visual Studio Code
-- Git *(optional, for cloning the repository)*
+- Visual Studio Code or another code editor
+- Git (optional)
 
-No backend server, database, or additional runtime environment is required.
+No Node.js, npm, backend server, or database is required.
 
-### Quick Start
-### Recommended Development Setup
+---
 
-For a smoother development experience, open the project in **Visual Studio Code** with the **Live Server** extension so changes reload automatically in the browser.
+📥 Installation
 
-## 📖 Usage
-### ➕ Create a Task
+1. Clone the Repository
+
+git clone https://github.com/your-username/To-Do-List.git
+
+2. Navigate to the Project
+
+cd To-Do-List
+
+3. Open the Project
+
+Open the folder in Visual Studio Code.
+
+4. Run the Application
+
+You can simply open:
+
+index.html
+
+in your browser.
+
+Recommended
+
+For development, use the Live Server extension in Visual Studio Code.
+
+Right-click:
+
+index.html
+
+and select:
+
+Open with Live Server
+
+---
+
+📖 Usage
+
+➕ Create a Task
+
 1. Enter the task title.
 2. Add an optional description.
-3. Select **Add Task**.
-4. The new task appears in the task list.
+3. Click Add Task.
+4. The task will appear in the task list.
 
-### ✏️ Edit a Task
-1. Locate the task you want to modify.
-2. Select **Edit**.
-3. Update the task information.
+---
+
+✏️ Edit a Task
+
+1. Locate the task.
+2. Click Edit.
+3. Modify the title or description.
 4. Save the changes.
 
-### ✅ Complete a Task
-Use the task checkbox/control to toggle its status:
+---
 
-### 🗑️ Delete a Task
-Select **Delete** to permanently remove a task from the application.
+✅ Complete a Task
 
-### 🔎 Filter Tasks
-Use the filter controls to quickly switch between task view.
+Use the task checkbox or completion control to toggle the task between:
 
-## 🖼️ Screenshots
-<div align="center">
+Active → Completed
 
-### Dashboard
-<img src="screenshots/home.png" alt="To-Do List Dashboard" width="700" />
-### Add Task
-<img src="screenshots/add-task.png" alt="Add Task" width="700" />
-### Edit Task
-<img src="screenshots/edit-task.png" alt="Edit Task" width="700" />
-### Completed Tasks
-<img src="screenshots/completed-tasks.png" alt="Completed Tasks" width="700" />
-</div>
+and:
 
-## 🌐 Browser Support
-| Browser | Supported |
-| --- | --- |
-| Chrome | ✅ |
-| Firefox | ✅ |
-| Edge | ✅ |
-| Safari | ✅ |
-| Opera | ✅ |
-| Internet Explorer | ❌ Not supported |
-> Requires a browser with LocalStorage support (all modern browsers).
+Completed → Active
 
-## 🎨 Design & User Experience
-### Simplicity
-The interface minimizes unnecessary elements and keeps the primary task workflow easy to understand.
+---
 
-### Responsiveness
-The layout adapts to different viewport sizes to provide a consistent experience across desktop and mobile devices.
+🗑️ Delete a Task
 
-### Efficiency
-Common operations — adding, completing, editing, deleting, and filtering tasks — are available directly from the main interface.
+Click Delete on the task you want to remove.
 
-### Visual Hierarchy
-Task titles, descriptions, completion states, and available actions are organized to make task information easy to scan at a glance.
+«Deleted tasks are permanently removed from the application's LocalStorage.»
 
-### Usability
-Clear controls and predictable interactions help users manage their tasks without unnecessary complexity.
+---
 
-## 🎯 Project Objectives
-This project demonstrates practical frontend development skills, including:
+🔎 Filter Tasks
 
-- Building a functional task-management application
-- Implementing CRUD operations
-- Managing client-side application state
-- Working with the DOM
-- Handling user interactions and events
-- Implementing persistent browser storage
-- Building responsive interfaces
-- Implementing task filtering
-- Handling form input and validation
-- Organizing frontend code effectively
-- Creating a practical, real-world web application
+Use the filter controls to display:
 
-## 🧠 Key Learning Outcomes
-- JavaScript application logic
+All
+│
+├── Active
+│
+└── Completed
+
+This makes it easier to focus on unfinished or completed tasks.
+
+---
+
+🖼️ Screenshots
+
+<div align="center">🏠 Dashboard
+
+<img src="screenshots/home.png" alt="To-Do List Dashboard" width="750"/><br><br>
+
+➕ Add Task
+
+<img src="screenshots/add-task.png" alt="Add Task Interface" width="750"/><br><br>
+
+✏️ Edit Task
+
+<img src="screenshots/edit-task.png" alt="Edit Task Interface" width="750"/><br><br>
+
+✅ Completed Tasks
+
+<img src="screenshots/completed-tasks.png" alt="Completed Tasks" width="750"/></div>---
+
+🎨 Design & User Experience
+
+🎯 Simplicity
+
+The interface focuses on the essential task-management workflow without unnecessary complexity.
+
+📱 Responsiveness
+
+The layout adapts to different screen sizes while maintaining readable content and accessible controls.
+
+⚡ Efficiency
+
+Frequently used operations such as adding, completing, editing, deleting, and filtering tasks are available directly from the main interface.
+
+👁️ Visual Hierarchy
+
+Task titles, descriptions, completion states, and actions are visually organized for quick scanning.
+
+♿ Usability
+
+The interface is designed with clear controls, predictable interactions, and responsive layouts in mind.
+
+---
+
+🎯 Project Objectives
+
+This project was developed to demonstrate practical frontend development skills.
+
+Development Objectives
+
+- Build a functional task-management application
+- Implement CRUD operations
+- Manage application state on the client side
+- Work with the DOM
+- Handle browser events
+- Implement persistent storage
+- Create responsive layouts
+- Implement task filtering
+- Validate user input
+- Organize frontend code effectively
+
+---
+
+🧠 Key Learning Outcomes
+
+Through this project, the following concepts are demonstrated:
+
+HTML5
+  ↓
+Semantic Structure
+
+CSS3
+  ↓
+Responsive UI
+
+JavaScript
+  ↓
+DOM + Events + State
+
+LocalStorage
+  ↓
+Persistent Data
+
+CRUD
+  ↓
+Create + Read + Update + Delete
+
+Filtering
+  ↓
+Active + Completed Tasks
+
+Skills Practiced
+
+- JavaScript fundamentals
 - DOM manipulation
 - Event handling
 - CRUD operations
-- LocalStorage integration
-- Data serialization and retrieval
-- State management
+- LocalStorage
+- JSON data handling
+- Client-side state management
 - Conditional rendering
-- Task filtering
 - Form validation
 - Responsive CSS
-- User interaction design
+- UI/UX principles
 - Frontend project organization
-  
-## 🗺️ Future Improvements
-The current implementation covers the core functionality required for task management. Planned enhancements are grouped by phase below.
 
-### Phase 1 — Productivity
+---
+
+🌐 Browser Support
+
+Browser| Support
+Chrome| ✅ Supported
+Firefox| ✅ Supported
+Microsoft Edge| ✅ Supported
+Safari| ✅ Supported
+Opera| ✅ Supported
+Internet Explorer| ❌ Not supported
+
+«The application requires a modern browser with LocalStorage support.»
+
+---
+
+🗺️ Future Improvements
+
+The current version focuses on the core task-management experience. Future development can expand the application into a more complete productivity platform.
+
+Phase 1 — Productivity
+
 - [ ] Task priorities
 - [ ] Due dates
 - [ ] Reminders
-- [ ] Categories and tags
+- [ ] Categories
+- [ ] Tags
 - [ ] Task search
 - [ ] Task sorting
 - [ ] Drag-and-drop ordering
 
-### Phase 2 — User Experience
+Phase 2 — User Experience
+
 - [ ] Dark / Light theme
 - [ ] Browser notifications
 - [ ] Advanced filtering
 - [ ] Keyboard shortcuts
-- [ ] Improved accessibility (ARIA, focus management)
-- [ ] Better empty-state messages
+- [ ] Improved accessibility
+- [ ] Better empty states
 - [ ] Improved mobile interactions
+- [ ] Task statistics dashboard
 
-### Phase 3 — Full-Stack Expansion
+Phase 3 — Full-Stack Expansion
+
 - [ ] User authentication
-- [ ] REST API integration
+- [ ] REST API
 - [ ] Backend service
 - [ ] Database integration
 - [ ] Cloud synchronization
@@ -329,32 +540,64 @@ The current implementation covers the core functionality required for task manag
 - [ ] User-specific task management
 - [ ] Collaborative task management
 
-## ❓ FAQ
-**Will I lose my tasks if I clear my browser cache?**
-Yes — since tasks live in LocalStorage, clearing site data or browser storage will remove them. Export/backup functionality is on the future roadmap.
+---
 
-**Can I use this on multiple devices?**
-Not yet. Tasks are stored locally per browser/device. Multi-device sync is planned for Phase 3.
+❓ FAQ
 
-**Does this require an internet connection?**
-No. Once loaded, the app works fully offline since everything runs client-side.
+Will I lose my tasks if I clear browser data?
 
-## 📊 Project Information
-| Property | Details |
-| --- | --- |
-| **Project Name** | To-Do List Application |
-| **Category** | Web Development |
-| **Application Type** | Task Management |
-| **Architecture** | Client-Side Web Application |
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Storage** | Browser LocalStorage |
-| **Interface** | Responsive Web UI |
-| **Backend** | None |
-| **Database** | None |
-| **Status** | ✅ Completed |
+Yes. Since tasks are stored in LocalStorage, clearing the site's browser data can remove stored tasks.
 
-## 🤝 Contributing
-Contributions, improvements, and feature suggestions are welcome!
+An export/backup feature can be added in a future version.
+
+Can I use the application on multiple devices?
+
+Not currently.
+
+Tasks are stored locally in the browser, so they are not synchronized across devices.
+
+Does the application require an internet connection?
+
+No.
+
+Once the application files are available locally, the core functionality runs entirely in the browser.
+
+Does the project require a backend?
+
+No.
+
+The current version is completely client-side.
+
+Does the application use a database?
+
+No.
+
+Task data is stored using the browser's LocalStorage API.
+
+---
+
+📊 Project Information
+
+Property| Details
+Project Name| To-Do List Application
+Category| Web Development
+Application Type| Task Management
+Architecture| Client-Side Web Application
+Frontend| HTML5, CSS3, JavaScript
+Storage| Browser LocalStorage
+Backend| None
+Database| None
+Framework| None
+Interface| Responsive Web UI
+Status| ✅ Completed
+
+---
+
+🤝 Contributing
+
+Contributions, improvements, bug fixes, and feature suggestions are welcome.
+
+Contribution Workflow
 
 Fork Repository
       ↓
@@ -370,22 +613,37 @@ Push Branch
       ↓
 Open Pull Request
 
-When contributing, please:
-- Keep changes focused and scoped to a single feature or fix
-- Maintain the existing project structure and coding style
-- Ensure existing functionality continues to work correctly
-- Add clear commit messages describing your changes
+Contribution Guidelines
 
-## 📄 License
-This project is developed for **educational and portfolio purposes**.
+- Keep changes focused on a specific feature or fix.
+- Follow the existing project structure.
+- Maintain consistent coding style.
+- Test existing functionality after making changes.
+- Use descriptive commit messages.
+- Update documentation when adding major features.
 
-You are free to modify, extend, and adapt the project for learning and development purposes.
+---
 
-## ⭐ Support
-If this project helped you learn something new, consider giving it a ⭐ **Star** on GitHub — it helps others discover it too.
-<div align="center">
-      
-### 📝 Built to keep tasks simple, organized, and actionable.
+📄 License
 
-**One task at a time. One step closer to your goals.**
+This project is developed for educational and portfolio purposes.
+
+You may modify, extend, and adapt the project for learning and development.
+
+---
+
+⭐ Support
+
+If this project helped you learn something new, consider giving the repository a ⭐ Star on GitHub.
+
+Your support helps the project reach more developers and learners.
+
+---
+
+<div align="center">📝 Built to keep tasks simple, organized, and actionable.
+
+One task at a time. One step closer to your goals.
+
+Made with HTML • CSS • JavaScript • LocalStorage
+
 </div>
