@@ -1,5 +1,5 @@
 <div align="center">
-                       
+                           
 # 📝 To-Do List Application
 ### **One task at a time. One step closer to your goals.**
 A modern, responsive, and lightweight **task management web application** built with **HTML5, CSS3, and Vanilla JavaScript**.
