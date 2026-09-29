@@ -42,8 +42,6 @@ The application provides the essential tools required to manage tasks from a sin
 
 The entire application runs inside the browser, making it lightweight, easy to understand, and simple to deploy.
 
----
-
 # 🎯 Core Principles
 
 | Principle              | Description                                               |
@@ -54,7 +52,6 @@ The entire application runs inside the browser, making it lightweight, easy to u
 | 💾 **Persistence**     | Preserve tasks using browser-based LocalStorage           |
 | 🧩 **Maintainability** | Keep the frontend structure simple and easy to understand |
 
----
 
 # ✨ Features
 
@@ -68,8 +65,6 @@ The entire application runs inside the browser, making it lightweight, easy to u
 | 🗑️ **Delete Task**  | Permanently remove unwanted tasks                  |
 | 📋 **Task Overview** | View and manage tasks from a centralized interface |
 
----
-
 ## 🔎 Task Filtering
 
 Quickly switch between different task states:
@@ -77,24 +72,17 @@ Quickly switch between different task states:
 * **All** — Display every task
 * **Active** — Display pending tasks
 * **Completed** — Display finished tasks
-
 This allows users to focus on the tasks that matter at any given moment.
 
----
 
 ## 💾 Persistent Storage
-
 Task data is stored using the browser's **LocalStorage API**.
-
 Tasks remain available after:
-
 * 🔄 Refreshing the page
 * 🌐 Closing and reopening the browser
 * 🔁 Returning to the application later
 
 > **⚠️ Important:** LocalStorage is browser/device-specific. Tasks are not automatically synchronized between different browsers or devices.
-
----
 
 ## 📱 Responsive Interface
 
@@ -104,12 +92,8 @@ The application is designed to work across:
 
 Responsive layouts, spacing, typography, and controls adapt to different viewport sizes while maintaining usability.
 
----
-
 ## ⚡ Lightweight Architecture
-
 The application intentionally avoids unnecessary dependencies.
-
 | Component          | Included? |
 | ------------------ | --------- |
 | Backend            | ❌         |
@@ -124,10 +108,7 @@ The application intentionally avoids unnecessary dependencies.
 
 > **Result:** A simple, lightweight application that can run directly in a modern browser.
 
----
-
 # 🛠️ Technical Highlights
-
 The project demonstrates practical frontend development concepts:
 
 * 🧩 Modular frontend organization
@@ -172,16 +153,12 @@ The project provides hands-on experience with:
 * JSON data handling
 * Client-side persistence
 * Conditional rendering
-
 This makes the project particularly useful for understanding how modern frontend frameworks work underneath the abstraction layer.
-
----
 
 # 🏗️ Architecture
 
 The application follows a simple **client-side architecture**:
 
-```text
                     ┌──────────────────────┐
                     │     User Interface   │
                     │       HTML + CSS     │
@@ -215,7 +192,6 @@ The application follows a simple **client-side architecture**:
                     ┌──────────────────────┐
                     │   Browser Storage    │
                     └──────────────────────┘
-```
 
 ### Architecture Characteristics
 
@@ -226,11 +202,10 @@ The application follows a simple **client-side architecture**:
 * Dynamic DOM updates
 * Simple application state flow
 
----
 
 # 🔄 Application Workflow
 
-```text
+
                  ┌───────────────┐
                  │    Open App   │
                  └───────┬───────┘
