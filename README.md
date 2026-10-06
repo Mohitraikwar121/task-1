@@ -3,7 +3,7 @@
 ### **One task at a time. One step closer to your goals.**
 A modern, responsive, and lightweight **task management web application** built with **HTML5, CSS3, and Vanilla JavaScript**.
 Create, organize, update, complete, filter, and delete tasks directly from your browser — with **persistent LocalStorage support and zero backend setup**.
-
+  
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
